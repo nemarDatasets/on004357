@@ -1,30 +1,98 @@
 {
   "version": "2.0",
-  "dataset_id": "on004357",
-  "source": "openneuro",
-  "source_id": "ds004357",
+  "pipeline_stage": "enriched",
   "title": "Features-EEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Grootswagers, Tijl": {},
+    "Grootswagers, Tijl": {
+      "orcid": "0000-0002-7961-5002"
+    },
     "Robinson, Amanda": {},
     "Shatek, Sofia": {},
     "Carlson, Thomas": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004357.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004357",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004357",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1371/journal.pcbi.1011760",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises electroencephalography recordings from 16 subjects viewing rapid serial visual presentations of Gabor-like stimuli at two presentation rates (6.67 Hz and 20 Hz). Participants performed a concurrent fixation color change detection task while EEG signals were recorded during approximately one-hour sessions. The dataset supports investigation of the temporal dynamics of visual feature coding and perceptual integration in the human brain.",
+  "methods_description": "Electroencephalography recordings were acquired from 16 subjects during rapid serial visual presentation of Gabor-like stimuli presented at 6.67 Hz and 20 Hz rates. Participants performed an orthogonal fixation color change detection task during approximately one-hour recording sessions.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "feature coding"
+    },
+    {
+      "term": "rapid serial visual presentation"
+    },
+    {
+      "term": "RSVP"
+    },
+    {
+      "term": "Gabor stimuli"
+    },
+    {
+      "term": "temporal dynamics"
+    },
+    {
+      "term": "visual attention"
+    },
+    {
+      "term": "perceptual integration"
+    },
+    {
+      "term": "visual neuroscience"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "9b22b0c9ecdff37ea03b64f868b7b8cd19eff04207742c05d639674ff9674e83"
 }
