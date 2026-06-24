@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Features-EEG",
+  "description": "This dataset comprises electroencephalography recordings from 16 subjects viewing rapid serial visual presentations of gabor-like stimuli at two presentation rates (6.67 Hz and 20 Hz). Participants performed a concurrent fixation color change detection task while EEG data were acquired. The study investigates the dynamics of visual feature coding and neural mechanisms underlying perception and feature integration.",
+  "methods_description": "Electroencephalography recordings were collected from 16 subjects during presentation of gabor-like stimuli in rapid serial visual presentation streams at 6.67 Hz and 20 Hz rates. Participants performed an orthogonal fixation color change detection task. Total experiment duration was approximately 1 hour per subject.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,48 +14,6 @@
     "Shatek, Sofia": {},
     "Carlson, Thomas": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004357.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004357",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004357",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1371/journal.pcbi.1011760",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".csv",
-    ".eeg",
-    ".json",
-    ".mat",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset comprises electroencephalography recordings from 16 subjects viewing rapid serial visual presentations of Gabor-like stimuli at two presentation rates (6.67 Hz and 20 Hz). Participants performed a concurrent fixation color change detection task while EEG signals were recorded during approximately one-hour sessions. The dataset supports investigation of the temporal dynamics of visual feature coding and perceptual integration in the human brain.",
-  "methods_description": "Electroencephalography recordings were acquired from 16 subjects during rapid serial visual presentation of Gabor-like stimuli presented at 6.67 Hz and 20 Hz rates. Participants performed an orthogonal fixation color change detection task during approximately one-hour recording sessions.",
   "keywords": [
     {
       "term": "EEG"
@@ -68,31 +28,52 @@
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "RSVP"
+      "term": "gabor stimuli"
     },
     {
-      "term": "Gabor stimuli"
-    },
-    {
-      "term": "temporal dynamics"
-    },
-    {
-      "term": "visual attention"
-    },
-    {
-      "term": "perceptual integration"
-    },
-    {
-      "term": "visual neuroscience"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "event-related potentials"
     }
   ],
-  "source_hash": "9b22b0c9ecdff37ea03b64f868b7b8cd19eff04207742c05d639674ff9674e83"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004357",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004357",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1371/journal.pcbi.1011760",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004357.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "74.7 GB (92 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "d076e9d5cc811bfaef6c96f1f738331e40424faee5a96f46117db97f4d4464dd"
 }
