@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Features-EEG",
-  "description": "This dataset comprises electroencephalography recordings from 16 subjects viewing rapid serial visual presentations of gabor-like stimuli at two presentation rates (6.67 Hz and 20 Hz). Participants performed a concurrent fixation color change detection task while EEG data were acquired. The study investigates the dynamics of visual feature coding and neural mechanisms underlying perception and feature integration.",
-  "methods_description": "Electroencephalography recordings were collected from 16 subjects during presentation of gabor-like stimuli in rapid serial visual presentation streams at 6.67 Hz and 20 Hz rates. Participants performed an orthogonal fixation color change detection task. Total experiment duration was approximately 1 hour per subject.",
+  "description": "Electroencephalography recordings from 16 participants viewing rapid serial visual presentation streams of Gabor-like stimuli. The dataset was collected to study the temporal dynamics of visual feature coding and integration in perception. Stimuli were presented at 6.67 Hz and 20 Hz while participants performed an orthogonal fixation colour change detection task.",
+  "methods_description": "Participants viewed fast streams of Gabor-like stimuli presented at 6.67 Hz and 20 Hz rates while EEG was recorded. They performed an orthogonal fixation colour change detection task. Sessions lasted about 1 hour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,26 +22,18 @@
       "term": "visual perception"
     },
     {
-      "term": "feature coding"
-    },
-    {
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "gabor stimuli"
+      "term": "feature coding"
     },
     {
-      "term": "event-related potentials"
+      "term": "Gabor stimuli"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004357",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004357",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -54,6 +46,11 @@
       "identifier": "10.18112/openneuro.ds004357.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004357",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -62,7 +59,7 @@
     "eeg"
   ],
   "sizes": [
-    "74.7 GB (92 files)"
+    "69.56 GB (92 files)"
   ],
   "formats": [
     ".csv",
